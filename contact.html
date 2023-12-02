@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contato</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <header>
+      <div class="logo-container">
+        <div class="title">ConnectHealth</div>
+        <div class="logo">
+          <img src="./logo.png" alt="Logo" />
+        </div>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./problem-solution.html">Problema & Solução</a></li>
+          <li><a href="./demonstracao.html">Demonstração da Solução</a></li>
+          <li><a href="./contact.html">Contato</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div class="content">
+      <div class="contact-message">
+        <h2>Agradecemos o contato! Por favor preencha com seus dados!</h2>
+      </div>
+      <div class="contact-form">
+        <form id="contactForm">
+          <input type="text" id="name" placeholder="Seu Nome" required />
+          <input type="email" id="email" placeholder="Seu Email" required />
+          <button type="button" onclick="validateForm()">Enviar</button>
+        </form>
+      </div>
+      <div class="table-container">
+        <h2>Time</h2>
+        <table class="time-table">
+          <thead>
+            <tr>
+              <th>Foto</th>
+              <th>RM</th>
+              <th>Nome</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><img src="me.jpeg" alt="Matheus's photo" /></td>
+              <td>553403</td>
+              <td>Matheus Felippe Hammarstrom</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </body>
+</html>
